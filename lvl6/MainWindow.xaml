@@ -1,0 +1,20 @@
+﻿<Window x:Class="lvl6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lvl6"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+
+
+    <Grid>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <Button Name="Task1Button" Content="Задание 1" Margin="0,0,10,0" Width="100" Height="40" Click="Task1Button_Click"></Button>
+            <Button Name="Task2Button" Content="Задание 2" Width="100" Height="40" Click="Task2Button_Click"></Button>
+        </StackPanel>
+    </Grid>
+
+</Window>
